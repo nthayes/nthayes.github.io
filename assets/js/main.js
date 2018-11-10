@@ -6,8 +6,8 @@ function animate(time) {
     angle += (time - lastTime) * 0.001;
   }
   lastTime = time;
-  basketball.style.top = (Math.sin(angle) * 20) + "px";
-  basketball.style.left = (Math.cos(angle) * 200) + "px";
+  basketball.style.top = (Math.sin(angle) * 200) + "px";
+  basketball.style.left = (Math.cos(angle) * 400) + "px";
   requestAnimationFrame(animate);
 }
 requestAnimationFrame(animate);
