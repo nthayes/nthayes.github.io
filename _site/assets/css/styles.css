@@ -1,3 +1,6 @@
+body {
+  font-family: 'Poppins', sans-serif; }
+
 .current {
   color: green; }
 
@@ -7,7 +10,16 @@
   color: Green;
   text-align: center; }
 
-.hero h2, h3 {
+.hero h2 {
   color: lightgray;
-  font-family: 'Poppins', sans-serif;
   font-size: 4.0rem; }
+
+.hero h3 {
+  font-size: 2.0rem;
+  color: Lightgray;
+  font-family: 'Poppins', sans-serif; }
+
+.teams {
+  color: lightslategray;
+  font-size: 2.0rem;
+  text-align: center; }
