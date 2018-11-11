@@ -1,6 +1,18 @@
 .current {
   color: green; }
 
-h1 {
+.hero {
   font-family: 'Questrial', sans-serif;
-}
+  font-size: 5.0rem;
+  color: Green;
+  text-align: center; }
+
+.hero h2 {
+  color: lightgray;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.0rem }
+
+  .hero h3 {
+    color: lightgray;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.0rem }

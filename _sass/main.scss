@@ -2,6 +2,13 @@
   color: green;
 }
 
-h1 {
+.hero {
   font-family: 'Questrial', sans-serif;
+  font-size:5.0rem;
+  color:Green;
+  text-align:center;
+}
+
+.hero, h2 {
+  color: blue;
 }
